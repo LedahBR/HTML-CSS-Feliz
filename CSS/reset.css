@@ -1,3 +1,10 @@
-body, a {
+body{
+    font-family: FiraCode, Arial, Helvetica, sans-serif;
+}
+body, a, h1, h2, h3 {
     margin: 0;
+}
+button {
+    border: none;
+    font-family: inherit;
 }
