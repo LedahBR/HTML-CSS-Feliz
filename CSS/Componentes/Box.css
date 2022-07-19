@@ -1,6 +1,10 @@
 #caixa{
+    display: inline-block;
     background-color: #3A4042;
-    width: 640px;
-    height: 184px;
-    box-shadow: 10px 10px 0px #000;
+    box-shadow: 5px 5px 0px #000;
+    text-align: center;
+    padding: 35px 44px;
+}
+#box h1{
+    margin-bottom: 28px; 
 }
