@@ -1,7 +1,24 @@
 .banner{
+    box-sizing: border-box;
     background-image: url(../../Assets/Img/trajeto\ 4.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 550px;
     border-bottom: 10px solid #000;
+    padding-top:30px;
+    padding-left: 90px;
+}
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+
+}
+.banner .caixa {
+    margin-bottom: 50px;
+
+}
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
 }
