@@ -1,0 +1,7 @@
+.banner{
+    background-image: url(../../Assets/Img/trajeto\ 4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+    border-bottom: 10px solid #000;
+}
