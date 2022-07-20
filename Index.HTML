@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
          
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="CSS/Componentes/Title.css">
+        <link rel="stylesheet" href="CSS/Componentes/Main-Title.css">
         <link rel="stylesheet" href="CSS/Componentes/Subtitle.css"/>
         <link rel="stylesheet" href="CSS/Componentes/Box.css"/>
         <link rel="stylesheet" href="CSS/Componentes/Button.css"/>
@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="CSS/Componentes/Header.css"/>
         <link rel="stylesheet" href="CSS/Componentes/Banner.css"/>
         <link rel="stylesheet" href="CSS/Componentes/Section.css"/>
+        <link rel="stylesheet" href="CSS/Componentes/Skill-tec.css"/>
+        <link rel="stylesheet" href="CSS/Componentes/Progress-Bar.css"/>
     </head>
 
 <body>
@@ -34,7 +36,7 @@
     <section class="banner">
         <div  class="wrapper">
             <div class="caixa">
-                <h2 class="title">Ledah Bernardi</h2>
+                <h2 class="main-title">Ledah Bernardi</h2>
                 <h3 class="subtitle">HTML - CSS Developer Feliz </h3>
             </div>
 
@@ -46,32 +48,27 @@
     </section>
 
     <section class="Section">
-        <h2 class="title -second" href="" lang="en">Skills</h2>
-        <figure class="html5">
-            <img src="Assets/Img/html5.png"/>
-            <figcaption>
-                <h3>HTML5</h3>
-                <p>xxx</p>
-            </figcaption>
-        </figure>
-        <figure class="css3">
-            <img src="Assets/Img/css3.png"/>
-            <figcaption>
-                <h3>CSS3</h3>
-                <p>xxx</p>
-            </figcaption>
-        </figure>
-        <figure class="js">
-            <img src="Assets/Img/js.png"/>
-            <figcaption>
-                <h3>JS</h3>
-                <p>xxx</p>
-            </figcaption>
-        </figure>
+        <h2 class="main-title -second" href="" lang="en">Skills</h2>
+        <dl class="skill-tec"> <!-- description list -->
+            <dd class="icon">
+                <img src="Assets/Img/ico_html5.png" alt="Logo do HTML5 em PixelArt"/>
+            </dd>
+            <dt class="title -second">HTML</dt>
+            <dd>
+
+                <progress class="progress-bar" max="100" value="70">
+                    70%
+                </progress>
+                
+            </dd>
+
+        </dl>
 
     </section>
     <section class="Section">
         <h2 class="title -second">Projetos</h2>
+
+
     </section>
 </body>
 </html>

@@ -1,10 +1,10 @@
-.title{
+.main-title{
     font-family: Press+Start+2P, sans-serif;
     color: #F25A70;
     font-size: 40px;
     padding: 0px;   
 }
-.title.-second {
+.main-title.-second {
     color: #FFF;
     text-align: center;
 }
