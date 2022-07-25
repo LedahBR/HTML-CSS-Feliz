@@ -10,5 +10,10 @@
 .Section .Projetos {
     background-color: #000;
     color: #FFF;
-    
+}
+.Section.-bgBlack {
+    background-color: #000;
+}
+.Section.-bdFirst {
+    border-color: #F25A70;
 }
