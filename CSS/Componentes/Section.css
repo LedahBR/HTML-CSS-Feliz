@@ -7,3 +7,19 @@
 .Section .main-title {
     margin-bottom: 50px;
 }
+.Section .Projetos {
+    background-color: #000;
+    color: #FFF;
+}
+.Section.-bgBlack {
+    background-color: #000;
+}
+.Section.-bdFirst {
+    border-color: #F25A70;
+}
+.Section.-bdBlack {
+    border-color: #000;
+}
+.Section.-bgSecond {
+    background-color: #7C5E99;
+}
