@@ -17,3 +17,9 @@
 .Section.-bdFirst {
     border-color: #F25A70;
 }
+.Section.-bdBlack {
+    border-color: #000;
+}
+.Section.-bgSecond {
+    background-color: #7C5E99;
+}
