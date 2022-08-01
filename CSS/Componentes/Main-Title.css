@@ -5,6 +5,11 @@
     padding: 0px;   
 }
 .main-title.-second {
+     color: #FFF;
+    text-align: center;
+}
+.main-title.-third {
+    background-color: #7C5E99 ;
     color: #FFF;
     text-align: center;
 }
